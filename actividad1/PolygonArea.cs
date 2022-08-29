@@ -2,7 +2,7 @@ namespace actividad_1{
 	public class PolygonArea : PolygonOperation{
 
 		void PolygonOperation.circleAreaSetup(PolygonType polygonType){
-			string? polygonName = null;
+			string? polygonName = EnumHelper<PolygonType>.GetDisplayValue(polygonType);
 			if(PolygonType.CYRCLE == polygonType)polygonName = "Círculo"; else polygonName = null;
 
 			Console.WriteLine(
