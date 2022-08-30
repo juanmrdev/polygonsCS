@@ -3,7 +3,6 @@ namespace actividad_1{
 
 		void PolygonOperation.circleAreaSetup(PolygonType polygonType){
 			string? polygonName = EnumHelper<PolygonType>.GetDisplayValue(polygonType);
-			if(PolygonType.CYRCLE == polygonType)polygonName = "Círculo"; else polygonName = null;
 
 			Console.WriteLine(
 				"\nCálculo área de un {0}\n"+
@@ -16,8 +15,7 @@ namespace actividad_1{
 		}
 
 		void PolygonOperation.triangleRectangleAreaSetup(PolygonType polygonType){
-			string? polygonName = null;
-			if(PolygonType.TRIANGLERECTANGLE == polygonType)polygonName = "Círculo"; else polygonName = null;
+			string? polygonName = EnumHelper<PolygonType>.GetDisplayValue(polygonType);
 
 			Console.WriteLine(
 				"\nCálculo área de un {0}\n"+
@@ -30,8 +28,7 @@ namespace actividad_1{
 		}
 
 		void PolygonOperation.rectangleAreaSetup(PolygonType polygonType){
-			string? polygonName = null;
-			if(PolygonType.RECTANGLE == polygonType)polygonName = "Círculo"; else polygonName = null;
+			string? polygonName = EnumHelper<PolygonType>.GetDisplayValue(polygonType);
 
 			Console.WriteLine(
 				"\nCálculo área de un {0}\n"+
@@ -44,8 +41,7 @@ namespace actividad_1{
 		}
 
 		void PolygonOperation.sphereVolumeAreaSetup(PolygonType polygonType){
-			string? polygonName = null;
-			if(PolygonType.SPHERE == polygonType)polygonName = "Círculo"; else polygonName = null;
+			string? polygonName = EnumHelper<PolygonType>.GetDisplayValue(polygonType);
 
 			Console.WriteLine(
 				"\nCálculo volumen de una {0}\n"+
@@ -58,8 +54,7 @@ namespace actividad_1{
 		}
 
 		void PolygonOperation.cilynderVolumeAreaSetup(PolygonType polygonType){
-			string? polygonName = null;
-			if(PolygonType.CYLINDER == polygonType)polygonName = "Círculo"; else polygonName = null;
+			string? polygonName = EnumHelper<PolygonType>.GetDisplayValue(polygonType);
 
 			Console.WriteLine(
 				"\nCálculo volumen de una {0}\n"+
